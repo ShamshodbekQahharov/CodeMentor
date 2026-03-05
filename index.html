@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Mentor Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                <span>Code<strong>Mentor</strong></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Bosh sahifa</a></li>
+                <li><a href="#about">G'oya</a></li>
+                <li><a href="#mentors">Mentorlar</a></li>
+                <li><a href="#slots">Slotlar</a></li>
+                <li><a href="#features">Imkoniyatlar</a></li>
+                <li><a href="#problems">Yechimlar</a></li>
+                <li><a href="#difference">Farqimiz</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="btn btn-outline">Kirish</a>
+                <a href="#" class="btn btn-primary">Ro'yxatdan o'tish</a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Investorlar uchun tayyorlangan</span>
+                </div>
+                <h1>Code Mentor <span class="gradient-text">Assistant</span></h1>
+                <p class="hero-description">
+                    Tarqoqlikni oldini olish, vaqt, resurs va sarmoyani to'g'ri sarflash imkonini beruvchi 
+                    yagona ECO tizim platformasi. Bilimni qulay, oson va tushunarli tarzda yetkazib berish.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary btn-lg">
+                        <i class="fas fa-play-circle"></i> Batafsil
+                    </a>
+                    <a href="#features" class="btn btn-outline btn-lg">
+                        <i class="fas fa-th-large"></i> Imkoniyatlar
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="6">0</span>
+                        <span class="stat-label">Asosiy vazifa</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="8">0</span>
+                        <span class="stat-label">Muammo yechimi</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">Noyob farq</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card-stack">
+                    <div class="floating-card card-mentor">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <span>Mentor</span>
+                    </div>
+                    <div class="floating-card card-student">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>O'quvchi</span>
+                    </div>
+                    <div class="floating-card card-ai">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Yordamchi</span>
+                    </div>
+                    <div class="floating-card card-job">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Ish beruvchi</span>
+                    </div>
+                    <div class="center-circle">
+                        <i class="fas fa-code"></i>
+                        <span>ECO Tizim</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About / Main Idea Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Asosiy G'oya</span>
+                <h2>Bilimni yetkazib berish <span class="gradient-text">platformasi</span></h2>
+                <p>Huddi Uzum Tezkor yoki Yandex Eats taom yetkazib berganidek — biz bilimni yetkazib beramiz</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Qulay ta'lim</h3>
+                    <p>Bilimni qulay, oson va tushunarli tarzda yetkazib berish. Har bir darsni alohida qulay summaga sotib olib o'zlashtirishingiz mumkin.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Tajribali mentorlar</h3>
+                    <p>Tajribali, bilimli va pedagogika-psixologiyasi kuchli insonlarni qabul qilamiz. Ular orqali sifatli ta'lim ta'minlanadi.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI integratsiya</h3>
+                    <p>Suniy intellektga to'liq integratsiyalashgan platforma. AI sizning bilimingizni to'g'irlash va to'ldirishga yo'naltirilgan.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Yagona ECO tizim</h3>
+                    <p>Barcha xizmatlar bir platformada — ta'lim, ish topish, loyiha sotish, jamoa to'plash. Hammasi sinxron ishlaydi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentors Section -->
+    <section class="section mentors" id="mentors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mentorlar</span>
+                <h2>Mentor <span class="gradient-text">tizimi</span></h2>
+                <p>Mentorlar — o'quvchining ta'lim olishiga yordam beruvchi, o'qituvchidan keyingi o'rinda turuvchi mutaxassislar</p>
+            </div>
+            <div class="mentors-content">
+                <div class="mentor-levels">
+                    <h3><i class="fas fa-layer-group"></i> Mentor darajalari</h3>
+                    <div class="level-cards">
+                        <div class="level-card beginner">
+                            <div class="level-badge">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <h4>Beginner Mentor</h4>
+                            <p>Boshlang'ich daraja. Mentorlik sayohatining boshlanishi.</p>
+                            <div class="level-bar">
+                                <div class="level-fill" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="level-card junior">
+                            <div class="level-badge">
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h4>Junior Mentor</h4>
+                            <p>O'rta daraja. Tajriba ortib bormoqda.</p>
+                            <div class="level-bar">
+                                <div class="level-fill" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div class="level-card expert">
+                            <div class="level-badge">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h4>Expert Mentor</h4>
+                            <p>Yuqori daraja. Professional mutaxassis.</p>
+                            <div class="level-bar">
+                                <div class="level-fill" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mentor-cabinet">
+                    <h3><i class="fas fa-id-card"></i> Shaxsiy kabinet</h3>
+                    <div class="cabinet-preview">
+                        <div class="cabinet-header">
+                            <div class="cabinet-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="cabinet-info">
+                                <h4>Mentor Ismi</h4>
+                                <span class="cabinet-badge">Expert Mentor</span>
+                                <div class="cabinet-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cabinet-details">
+                            <div class="cabinet-stat">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Yo'nalish: Frontend</span>
+                            </div>
+                            <div class="cabinet-stat">
+                                <i class="fas fa-project-diagram"></i>
+                                <span>12 ta loyiha</span>
+                            </div>
+                            <div class="cabinet-stat">
+                                <i class="fas fa-video"></i>
+                                <span>48 ta video dars</span>
+                            </div>
+                            <div class="cabinet-stat">
+                                <i class="fas fa-trophy"></i>
+                                <span>Reyting: #3</span>
+                            </div>
+                        </div>
+                        <p class="cabinet-note">
+                            <i class="fas fa-info-circle"></i>
+                            Daraja video uchrashuvlar va o'quvchilar baholari asosida belgilanadi
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mentor Income -->
+            <div class="mentor-income">
+                <h3><i class="fas fa-money-bill-wave"></i> Mentorlar qanday daromad topadi?</h3>
+                <div class="income-grid">
+                    <div class="income-card">
+                        <div class="income-icon"><i class="fas fa-video"></i></div>
+                        <h4>Video uchrashuvlar</h4>
+                        <p>Har bitta jonli uchrashuv darslari bilan daromad toping</p>
+                        <div class="income-example">
+                            <div class="income-calc">
+                                <span>1 kishi × 15,000 so'm</span>
+                                <span>20 kishi = <strong>300,000 so'm</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="income-card">
+                        <div class="income-icon"><i class="fas fa-play-circle"></i></div>
+                        <h4>Video darsliklar</h4>
+                        <p>Video darsliklarni yuklang va sotib olinishi bilan daromad toping</p>
+                    </div>
+                    <div class="income-card">
+                        <div class="income-icon"><i class="fas fa-users"></i></div>
+                        <h4>Auditoriya yig'ish</h4>
+                        <p>O'z auditoriyangizni yig'ib, doimiy dars berish maqomiga ega bo'ling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slots Section -->
+    <section class="section slots" id="slots">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Slotlar</span>
+                <h2>Vaqt <span class="gradient-text">grafigi</span> tizimi</h2>
+                <p>Mentorlarning vaqtiga va mavzusiga qarab tuzilgan slot tizimi</p>
+            </div>
+            <div class="slots-demo">
+                <div class="slot-card">
+                    <div class="slot-header">
+                        <span class="slot-topic">JavaScript — Closures</span>
+                        <span class="slot-status live">Jonli</span>
+                    </div>
+                    <div class="slot-body">
+                        <div class="slot-info">
+                            <i class="fas fa-clock"></i>
+                            <span>14:00 — 15:30</span>
+                        </div>
+                        <div class="slot-info">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Kutilayotgan: <strong>15 kishi</strong></span>
+                        </div>
+                        <div class="slot-info">
+                            <i class="fas fa-coins"></i>
+                            <span>Narxi: <strong>15,000 so'm</strong></span>
+                        </div>
+                        <div class="slot-mentor">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Mentor: Sardor A.</span>
+                            <span class="mentor-level-tag">Expert</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Qo'shilish</button>
+                </div>
+                <div class="slot-card">
+                    <div class="slot-header">
+                        <span class="slot-topic">Python — OOP asoslari</span>
+                        <span class="slot-status upcoming">Rejalashtirilgan</span>
+                    </div>
+                    <div class="slot-body">
+                        <div class="slot-info">
+                            <i class="fas fa-clock"></i>
+                            <span>16:00 — 17:00</span>
+                        </div>
+                        <div class="slot-info">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Kutilayotgan: <strong>8 kishi</strong></span>
+                        </div>
+                        <div class="slot-info">
+                            <i class="fas fa-coins"></i>
+                            <span>Narxi: <strong>12,000 so'm</strong></span>
+                        </div>
+                        <div class="slot-mentor">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Mentor: Dilshod K.</span>
+                            <span class="mentor-level-tag">Junior</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Ro'yxatdan o'tish</button>
+                </div>
+                <div class="slot-card">
+                    <div class="slot-header">
+                        <span class="slot-topic">React — Hooks</span>
+                        <span class="slot-status ai">AI taklifi</span>
+                    </div>
+                    <div class="slot-body">
+                        <div class="slot-info">
+                            <i class="fas fa-clock"></i>
+                            <span>18:00 — 19:30</span>
+                        </div>
+                        <div class="slot-info">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Kutilayotgan: <strong>22 kishi</strong></span>
+                        </div>
+                        <div class="slot-info">
+                            <i class="fas fa-coins"></i>
+                            <span>Narxi: <strong>20,000 so'm</strong></span>
+                        </div>
+                        <div class="slot-mentor">
+                            <i class="fas fa-robot"></i>
+                            <span>AI tomonidan taklif qilingan</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline btn-block">Slotni qabul qilish</button>
+                </div>
+            </div>
+            <p class="slots-note">
+                <i class="fas fa-lightbulb"></i>
+                Mavzular AI tomonidan o'quvchilarning murojaatlariga qarab tuziladi yoki mentor o'zi tanlashi mumkin
+            </p>
+        </div>
+    </section>
+
+    <!-- Features / Platform Tasks Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Imkoniyatlar</span>
+                <h2>Platformaning <span class="gradient-text">asosiy vazifalari</span></h2>
+                <p>Loyihaning asosiy maqsadlari va imkoniyatlari</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-number">01</div>
+                    <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Qulay ta'lim platformasi</h3>
+                    <p>Dasturlashni o'rganmoqchi bo'lganlar va o'rganayotganlar uchun qulay platforma</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">02</div>
+                    <div class="feature-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <h3>Daromadli platforma</h3>
+                    <p>Dasturlashni biladiganlar va o'rgatishga layoqatli bo'lganlar uchun daromad topish imkoniyati</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">03</div>
+                    <div class="feature-icon"><i class="fas fa-search"></i></div>
+                    <h3>Ish beruvchilar uchun</h3>
+                    <p>Qobilyatli va iqtidorli dasturchilarni topish platformasi</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">04</div>
+                    <div class="feature-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>Savdo platformasi</h3>
+                    <p>Buyurtmachi bergan buyurtmani tayyorlash va sotish platformasi</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">05</div>
+                    <div class="feature-icon"><i class="fas fa-people-carry"></i></div>
+                    <h3>Jamoa to'plash</h3>
+                    <p>Jamoa to'plash uchun qulay platforma</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">06</div>
+                    <div class="feature-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI integratsiya</h3>
+                    <p>Suniy intellektga to'liq integratsiyalashgan platforma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems & Solutions Section -->
+    <section class="section problems" id="problems">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Muammolar va Yechimlar</span>
+                <h2>Qanday <span class="gradient-text">muammolarni</span> hal qilamiz?</h2>
+                <p>Platformamiz hal qiladigan asosiy muammolar</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-book-open"></i></div>
+                    <h4>Mukammal ta'lim</h4>
+                    <p>Mukammal ta'lim olish imkonini beradi</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-briefcase"></i></div>
+                    <h4>Ishsizlik yechimi</h4>
+                    <p>Ishsizlikni oldini oladi</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-sitemap"></i></div>
+                    <h4>Tarqoqlik yechimi</h4>
+                    <p>Ta'lim tarqoqligini oldini oladi</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-users-cog"></i></div>
+                    <h4>Jamoa tuzish</h4>
+                    <p>Jamoa tuzishga yordam beradi</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-user-tie"></i></div>
+                    <h4>Iqtidorlilarni topish</h4>
+                    <p>Ish beruvchi kompaniyalar uchun iqtidorli kasb egalarini topish imkonini yengillashtiradi</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-id-badge"></i></div>
+                    <h4>O'zini tanitish</h4>
+                    <p>O'zini tanitish va ishga joylashish imkonini beradi</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-wallet"></i></div>
+                    <h4>Daromad topish</h4>
+                    <p>Egallagan bilimi orqali har qanday holatda pul topish imkonini beradi</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon"><i class="fas fa-tasks"></i></div>
+                    <h4>Proyekt bajarish</h4>
+                    <p>Proyektlarni mijoz tomonidan olib uni bajarib berish orqali daromad topish</p>
+                </div>
+            </div>
+
+            <!-- Who benefits -->
+            <div class="who-benefits">
+                <h3><i class="fas fa-bullseye"></i> Kimlarning muammosini hal qiladi?</h3>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <div class="benefit-num">1</div>
+                        <p>Bilim olishda muammo va qiyinchiliklarga duch kelayotgan odamlar</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-num">2</div>
+                        <p>Bilimi bo'la turib ishsiz yurgan insonlar</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-num">3</div>
+                        <p>O'rganayotgan yoki endigina o'rganishni boshlagan insonlar</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-num">4</div>
+                        <p>Qobilyatini ochib, kelajakdagi yo'nalishini topmoqchi bo'lganlar</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-num">5</div>
+                        <p>Qiziqishi va maqsadiga qarab har qanday sohada ta'lim olmoqchi bo'lganlar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Difference Section -->
+    <section class="section difference" id="difference">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nima bilan farq qilamiz?</span>
+                <h2>Bizning yechim <span class="gradient-text">boshqalardan farqi</span></h2>
+                <p>Hozirgi muammolar tarqoq holatda — biz hammasini bitta ECO tizimga jamlagan holda hal qilamiz</p>
+            </div>
+            <div class="difference-grid">
+                <div class="diff-card">
+                    <div class="diff-header">
+                        <div class="diff-number">1</div>
+                        <h4>Tarqoq ta'limni yig'ish</h4>
+                    </div>
+                    <div class="diff-comparison">
+                        <div class="diff-old">
+                            <span class="diff-label"><i class="fas fa-times-circle"></i> Hozirgi holat</span>
+                            <p>YouTube, Telegram orqali tarqoq darslar. Butun kursni katta summaga sotib olish majburiyati.</p>
+                        </div>
+                        <div class="diff-new">
+                            <span class="diff-label"><i class="fas fa-check-circle"></i> Bizning yechim</span>
+                            <p>Barcha darslar bitta platformada. O'zingizga kerakli darsni qulay va kichik summaga sotib oling.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-header">
+                        <div class="diff-number">2</div>
+                        <h4>Ish topish va berish</h4>
+                    </div>
+                    <div class="diff-comparison">
+                        <div class="diff-old">
+                            <span class="diff-label"><i class="fas fa-times-circle"></i> Hozirgi holat</span>
+                            <p>Telegram va boshqa platformalarda e'lon berish. Faqat rezyume va diplomga qarab baho berish.</p>
+                        </div>
+                        <div class="diff-new">
+                            <span class="diff-label"><i class="fas fa-check-circle"></i> Bizning yechim</span>
+                            <p>Diplom, rezyume, o'zlashtirilgan darslar, loyihalar, reyting — hammasi shaffof ko'rinadi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-header">
+                        <div class="diff-number">3</div>
+                        <h4>Tushunmagan mavzular</h4>
+                    </div>
+                    <div class="diff-comparison">
+                        <div class="diff-old">
+                            <span class="diff-label"><i class="fas fa-times-circle"></i> Hozirgi holat</span>
+                            <p>Boshqa manbalardan qidirish. O'zbek tilida kam va yuzaki ma'lumotlar. Katta summaga kurs sotib olish.</p>
+                        </div>
+                        <div class="diff-new">
+                            <span class="diff-label"><i class="fas fa-check-circle"></i> Bizning yechim</span>
+                            <p>Mentor slotlari orqali aniq mavzuga javob olish. Kichik summa, tez natija.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-header">
+                        <div class="diff-number">4</div>
+                        <h4>AI tahlil tizimi</h4>
+                    </div>
+                    <div class="diff-comparison">
+                        <div class="diff-old">
+                            <span class="diff-label"><i class="fas fa-times-circle"></i> Hozirgi holat</span>
+                            <p>ChatGPT, Gemini faqat xatoni to'g'irlaydi. Code yozish strukturasini o'rgatmaydi.</p>
+                        </div>
+                        <div class="diff-new">
+                            <span class="diff-label"><i class="fas fa-check-circle"></i> Bizning yechim</span>
+                            <p>AI bilimni to'g'irlash va to'ldirishga yo'naltirilgan. Video darsliklar, uchrashuvlar taklif qiladi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-header">
+                        <div class="diff-number">5</div>
+                        <h4>Proyekt tayyorlash va sotish</h4>
+                    </div>
+                    <div class="diff-comparison">
+                        <div class="diff-old">
+                            <span class="diff-label"><i class="fas fa-times-circle"></i> Hozirgi holat</span>
+                            <p>WorkUp, Freelancer kabi murakkab platformalar.</p>
+                        </div>
+                        <div class="diff-new">
+                            <span class="diff-label"><i class="fas fa-check-circle"></i> Bizning yechim</span>
+                            <p>Sodda va ixcham ko'rinish. Jamoaviy ishlash, chat muhiti, doimiy fikr almashish.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Bitta ECO tizim — <span class="gradient-text">barcha yechimlar</span></h2>
+                <p>Code Mentor Assistant bilan ta'lim oling, daromad toping, ish toping va loyihalar yarating — hammasi bitta platformada!</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> Hoziroq boshlang
+                    </a>
+                    <a href="#" class="btn btn-outline-white btn-lg">
+                        <i class="fas fa-envelope"></i> Bog'lanish
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-code"></i>
+                        <span>Code<strong>Mentor</strong></span>
+                    </a>
+                    <p>Bilimni qulay, oson va tushunarli tarzda yetkazib berish platformasi.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Platforma</h4>
+                    <ul>
+                        <li><a href="#about">Asosiy g'oya</a></li>
+                        <li><a href="#mentors">Mentorlar</a></li>
+                        <li><a href="#slots">Slotlar</a></li>
+                        <li><a href="#features">Imkoniyatlar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Qo'shimcha</h4>
+                    <ul>
+                        <li><a href="#problems">Muammolar</a></li>
+                        <li><a href="#difference">Farqimiz</a></li>
+                        <li><a href="#">Yordam</a></li>
+                        <li><a href="#">Bog'lanish</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ijtimoiy tarmoqlar</h4>
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-telegram"></i> Telegram</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                        <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Code Mentor Assistant. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
